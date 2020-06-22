@@ -1347,6 +1347,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 175558818}
     m_Modifications:
+    - target: {fileID: 1766689624825602669, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitText
+      objectReference: {fileID: 0}
     - target: {fileID: 3859431171213148199, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1502,6 +1507,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 175558818}
     m_Modifications:
+    - target: {fileID: 1264362270086052652, guid: 346543d5760696f4f8fe81bb5f36e4a6,
+        type: 3}
+      propertyPath: m_Name
+      value: OptionsText
+      objectReference: {fileID: 0}
     - target: {fileID: 2481524381182413641, guid: 346543d5760696f4f8fe81bb5f36e4a6,
         type: 3}
       propertyPath: m_LocalPosition.x
