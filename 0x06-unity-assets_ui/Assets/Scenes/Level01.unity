@@ -13227,6 +13227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 1981743307}
   playerT: {fileID: 1621326455179671183}
+  winCanvas: {fileID: 0}
 --- !u!4 &1863039830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 1c2732a02fd3a21409423f707935ae9b,
@@ -15153,6 +15154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1981743307}
+  finalTime: {fileID: 0}
   timeStart: 0
 --- !u!4 &1621326455179671188 stripped
 Transform:
@@ -15427,6 +15429,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301e1b546296f114188da5bebf554054, type: 3}
+--- !u!1 &3415160592381792094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 721202220810773617, guid: 301e1b546296f114188da5bebf554054,
+    type: 3}
+  m_PrefabInstance: {fileID: 2695175608256850735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3415160592381792095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415160592381792094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05256a12bca914a489a815c850fd5846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1981743307}
+  playerT: {fileID: 1621326455179671183}
+  winCanvas: {fileID: 3415160592381792094}
 --- !u!1001 &3501979479742105990
 PrefabInstance:
   m_ObjectHideFlags: 0
