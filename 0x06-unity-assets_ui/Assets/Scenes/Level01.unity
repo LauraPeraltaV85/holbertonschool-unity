@@ -3775,26 +3775,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1910503001}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &539837373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1737101070914592600, guid: bfd99a5680508c24ab69583e295af768,
-    type: 3}
-  m_PrefabInstance: {fileID: 3501979479742105990}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &539837379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539837373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d2c1a446bf476a47a9d163a466a15a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paused: 0
-  pauseCanvas: {fileID: 0}
 --- !u!1 &549702521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 56aedae0d1a7ddc4884c9b87261b8439,
@@ -4494,6 +4474,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: fa720c12d64777c489092acf7192c1bd, type: 3}
+--- !u!1 &662756546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7671107415830729217, guid: bfd99a5680508c24ab69583e295af768,
+    type: 3}
+  m_PrefabInstance: {fileID: 3501979479742105990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &667113477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: fcf132a3e78774141a46268f8302d1bc,
@@ -4851,7 +4837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
-  pauseCanvas: {fileID: 0}
+  pauseCanvas: {fileID: 662756546}
 --- !u!1 &699168577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: ba8bb4fb995d7e640b3a4c8a79331cef,
@@ -5744,6 +5730,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 60841456}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &878304697 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8090012817089891924, guid: 301e1b546296f114188da5bebf554054,
+    type: 3}
+  m_PrefabInstance: {fileID: 2695175608256850735}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &879318030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: eda4a192eea5069478d095c7cc1b2ac8,
@@ -9951,6 +9949,67 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 17b56ae406d2c7f40879d2a7c2f920ef, type: 3}
+--- !u!1 &1407403526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407403528}
+  - component: {fileID: 1407403527}
+  - component: {fileID: 1407403529}
+  m_Layer: 0
+  m_Name: ScriptLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1407403527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407403526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2c1a446bf476a47a9d163a466a15a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paused: 0
+  pauseCanvas: {fileID: 662756546}
+--- !u!4 &1407403528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407403526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 457.9, y: 247.47021, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1407403529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407403526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16b7137d0d81174f95b0fdbb01cf460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 0}
+  finalTime: {fileID: 878304697}
+  timeStart: 0
 --- !u!1001 &1416727306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15545,7 +15604,22 @@ PrefabInstance:
     - target: {fileID: 2564826419601078838, guid: bfd99a5680508c24ab69583e295af768,
         type: 3}
       propertyPath: paused
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886715051200025990, guid: bfd99a5680508c24ab69583e295af768,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172621122065326637, guid: bfd99a5680508c24ab69583e295af768,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172621122065326637, guid: bfd99a5680508c24ab69583e295af768,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 354
       objectReference: {fileID: 0}
     - target: {fileID: 4591493111990257134, guid: bfd99a5680508c24ab69583e295af768,
         type: 3}
@@ -15566,7 +15640,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 539837379}
+      objectReference: {fileID: 0}
     - target: {fileID: 4591493111990257134, guid: bfd99a5680508c24ab69583e295af768,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -15722,5 +15796,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2564826419601078838, guid: bfd99a5680508c24ab69583e295af768, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bfd99a5680508c24ab69583e295af768, type: 3}

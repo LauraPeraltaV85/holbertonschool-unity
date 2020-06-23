@@ -18,15 +18,19 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+           CalculateTime();
+    }
+
+    public string CalculateTime()
+    {
         timeStart += Time.deltaTime;
         string minutes = Mathf.Floor((timeStart % 3600) / 60).ToString("0");
         string seconds = (timeStart % 60).ToString("00");
         string miliseconds = ((timeStart * 100) % 100).ToString("00");
-        timerText.text = minutes + ":" + seconds + ":" + miliseconds;   
+        return (timerText.text = minutes + ":" + seconds + ":" + miliseconds);
     }
-
     public void Win()
     {
-        finalTime.text = timerText.text;
+        finalTime.text = CalculateTime();
     }
 }
