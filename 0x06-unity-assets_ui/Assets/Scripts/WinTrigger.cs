@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using static Timer;
 
 public class WinTrigger : MonoBehaviour
 {
@@ -16,6 +15,9 @@ public class WinTrigger : MonoBehaviour
         playerT.GetComponent<Timer>().enabled = false;
         //timerText.fontSize = 60;
         //timerText.color = Color.green;
+        //timerText.SetActive(false);
         winCanvas.SetActive(true);
+        playerT.GetComponent<Timer>().Win();
+
     }
 }

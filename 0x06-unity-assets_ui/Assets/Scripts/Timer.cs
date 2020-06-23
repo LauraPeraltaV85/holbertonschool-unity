@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public Text timerText;
     public Text finalTime;
     public float timeStart;
+    public GameObject timeCanvas;
     
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,8 @@ public class Timer : MonoBehaviour
     }
     public void Win()
     {
+        Time.timeScale = 1f;
+        timeCanvas.SetActive(false);
         finalTime.text = CalculateTime();
     }
 }

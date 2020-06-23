@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 7322694457969352218}
   - component: {fileID: 2218714374390333749}
   - component: {fileID: 6168234799829443586}
+  - component: {fileID: 3415160592381792095}
   m_Layer: 5
   m_Name: WinCanvas
   m_TagString: Untagged
@@ -180,6 +181,21 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3415160592381792095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721202220810773617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05256a12bca914a489a815c850fd5846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 0}
+  playerT: {fileID: 0}
+  winCanvas: {fileID: 721202220810773617}
 --- !u!1 &806300707061200972
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +378,7 @@ GameObject:
   - component: {fileID: 433452999095700406}
   - component: {fileID: 4510863412512582280}
   - component: {fileID: 5191968198966351206}
+  - component: {fileID: 126786827}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -464,7 +481,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4510863412512582280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 126786827}
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &126786827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4209099986028847946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0659198e03d3a4f49bccc2c7391b9112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winCanvas: {fileID: 0}
 --- !u!1 &7498502815570181517
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +591,7 @@ GameObject:
   - component: {fileID: 3033433647784123144}
   - component: {fileID: 1758693292982854630}
   - component: {fileID: 2035967997419766203}
+  - component: {fileID: 1288717815}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -652,7 +694,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1758693292982854630}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288717815}
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1288717815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241821129223710683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0659198e03d3a4f49bccc2c7391b9112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winCanvas: {fileID: 0}
 --- !u!1 &8964573242824434762
 GameObject:
   m_ObjectHideFlags: 0
