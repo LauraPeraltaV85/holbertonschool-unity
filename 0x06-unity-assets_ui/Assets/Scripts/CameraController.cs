@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
@@ -14,11 +15,14 @@ public class CameraController : MonoBehaviour
     public bool rotateAround = true;
     public float rotationSpeed = 5.0f;
     public bool LookAtPlayer = false;
-    public bool IsInverted;
+    public bool isInverted;
+
+    public Toggle inverted;
+    public float mouseY = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        inverted = this.GetComponent<Toggle>();
     }
 
     // Update is called once per frame
@@ -40,5 +44,13 @@ public class CameraController : MonoBehaviour
         }
         if (LookAtPlayer || rotateAround)
             transform.LookAt(playerPos);
+
+        if (inverted.isOn)
+        {
+            isInverted = true;
+            transform.RotateAround(transform.position, transform.right, Input.GetAxis("Mouse Y") * mouseY);
+        }
+        else
+            isInverted = false;
     }
 }

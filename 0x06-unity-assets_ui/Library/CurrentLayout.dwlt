@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 14
+  controlID: 46
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 254
     height: 481
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 99
+  controlID: 124
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 498}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 112
+  controlID: 125
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,10 +292,10 @@ MonoBehaviour:
     y: 0
     width: 1557
     height: 481
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 402, y: 224}
+  m_MaxSize: {x: 8002, y: 4024}
   vertical: 0
-  controlID: 113
+  controlID: 126
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,14 +393,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Holberton\Specialization\holbertonschool-unity\0x06-unity-asstes_ui
+  m_LastProjectPath: D:\Holberton\Specialization\holbertonschool-unity\0x06-unity-assets_ui
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 56280000
     m_LastClickedID: 10326
-    m_ExpandedIDs: 000000004a260000d02900008a2f000000ca9a3b
+    m_ExpandedIDs: 000000004a260000d02900008a2f00006830000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,7 +428,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a260000d0290000
+    m_ExpandedIDs: 000000004a260000d02900008a2f000068300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000c62d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -547,9 +547,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f4c8ffff
-      m_LastClickedID: -14092
-      m_ExpandedIDs: 0cc9ffff18c9ffff16d5ffff90e1ffffeaedffffc4fbffff
+      m_SelectedIDs: 56ac0000
+      m_LastClickedID: 44118
+      m_ExpandedIDs: 40c4ffff8cd1ffffaed2ffff86ebffff90edffffcaefffffdcfbffffe442000094430000f4480000fc940000129500004c9500002cac000066ac0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -604,9 +604,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 558.17957, y: 220.12271, z: 112.203}
+    m_Target: {x: 557.2135, y: 220.32396, z: 0}
     speed: 2
-    m_Value: {x: 558.17957, y: 220.12271, z: 112.203}
+    m_Value: {x: 557.2135, y: 220.32396, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -638,9 +638,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.0008981215, y: 0.0018122032, z: -0.000114449555, w: 0.999998}
   m_Size:
-    m_Target: 711.68536
+    m_Target: 579.7316
     speed: 2
-    m_Value: 711.68536
+    m_Value: 579.7316
   m_Ortho:
     m_Target: 0
     speed: 2
