@@ -542,6 +542,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351712777}
   m_CullTransparentMesh: 0
+--- !u!1 &535703917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5493673858025433627, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2358227187683765933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &535703918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535703917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f069449fe5e61fc439b8706fd1148d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1386479761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1333,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ExitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882564035847109966, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882564035847109966, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882564035847109966, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882564035847109966, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 535703918}
+    - target: {fileID: 5882564035847109966, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitPlatformer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882564035847109966, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8203174837267898649, guid: e0443f2e00e6a904e9ab7e35f9ca76cb,
         type: 3}

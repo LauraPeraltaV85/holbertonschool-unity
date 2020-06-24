@@ -18,6 +18,5 @@ public class WinTrigger : MonoBehaviour
         //timerText.SetActive(false);
         winCanvas.SetActive(true);
         playerT.GetComponent<Timer>().Win();
-
     }
 }
