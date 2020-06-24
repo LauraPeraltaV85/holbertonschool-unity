@@ -54,6 +54,7 @@ public class PauseMenu : MonoBehaviour
     public void Options ()
     {
         Time.timeScale = 1f; 
+        PlayerPrefs.SetString("previousScene", SceneManager.GetActiveScene().name);
         if (this.gameObject.name == "OptionsButton")
             SceneManager.LoadScene ("Options");
     }

@@ -3746,9 +3746,6 @@ MonoBehaviour:
   rotateAround: 1
   rotationSpeed: 5
   LookAtPlayer: 0
-  isInverted: 0
-  inverted: {fileID: 0}
-  mouseY: 0
 --- !u!4 &538580266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 84167fec4e481de44ace357b2cb17f8c,
@@ -15379,6 +15376,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3439444155825171293, guid: bfd99a5680508c24ab69583e295af768,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3501979479742105992}
+    - target: {fileID: 3439444155825171293, guid: bfd99a5680508c24ab69583e295af768,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Options
+      objectReference: {fileID: 0}
     - target: {fileID: 7150702635487618434, guid: bfd99a5680508c24ab69583e295af768,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15489,5 +15496,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3564529495071204678, guid: bfd99a5680508c24ab69583e295af768, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bfd99a5680508c24ab69583e295af768, type: 3}
+--- !u!1 &3501979479742105991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1856770423477196773, guid: bfd99a5680508c24ab69583e295af768,
+    type: 3}
+  m_PrefabInstance: {fileID: 3501979479742105990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3501979479742105992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501979479742105991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2c1a446bf476a47a9d163a466a15a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paused: 0
+  pauseCanvas: {fileID: 0}
