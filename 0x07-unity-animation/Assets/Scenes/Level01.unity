@@ -1538,6 +1538,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98d404456cc66964a8d8128f4218e99d, type: 3}
+--- !u!95 &197875422 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: ce26ba5883feb3f47b11d2cd2d316300,
+    type: 3}
+  m_PrefabInstance: {fileID: 1454654985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &203907782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3685,7 +3691,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &534669903
 AudioListener:
   m_ObjectHideFlags: 0
@@ -10484,6 +10490,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 282791d85d0b4b241933c7c68580d26c, type: 2}
+    - target: {fileID: 9500000, guid: ce26ba5883feb3f47b11d2cd2d316300, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: ce26ba5883feb3f47b11d2cd2d316300, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15192,8 +15202,13 @@ PrefabInstance:
     - target: {fileID: 1621326455179671184, guid: ac890f4095dff1d4699195560e6aa281,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1621326455179671184, guid: ac890f4095dff1d4699195560e6aa281,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 197875422}
     - target: {fileID: 1621326455179671185, guid: ac890f4095dff1d4699195560e6aa281,
         type: 3}
       propertyPath: timerText
@@ -15209,6 +15224,11 @@ PrefabInstance:
       propertyPath: timeCanvas
       value: 
       objectReference: {fileID: 1739681178}
+    - target: {fileID: 1621326455179671185, guid: ac890f4095dff1d4699195560e6aa281,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9182253843649362140, guid: ac890f4095dff1d4699195560e6aa281,
         type: 3}
       propertyPath: m_Name
@@ -15649,6 +15669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CutsceneCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699665862951873853, guid: 665ea338e86b8604eba983c615a96d22,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529941900944983846, guid: 665ea338e86b8604eba983c615a96d22,
         type: 3}

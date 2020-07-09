@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b43a6a5c5472c842a760138033a40c9
+guid: e8b447be6ffc0944cb9c7f23b2331329
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -131,7 +131,7 @@ ModelImporter:
     400122: Boy:Spine1
     400124: Boy:Spine2
     400126: //RootNode
-    7400000: Happy Idle
+    7400000: mixamo.com
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -157,42 +157,14 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Happy Idle
-      takeName: mixamo.com
-      firstFrame: 0
-      lastFrame: 70
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

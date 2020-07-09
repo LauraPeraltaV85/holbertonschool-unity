@@ -16,7 +16,8 @@ public class PlayerController : MonoBehaviour
     float turnSmoothVelocity;
 
     //public float rotateSpeed = 3.0f;
-
+    Animator anim;
+    //int jumpHash = Animator.StringToHash("Jump");
 
     public GameObject playerT;
     public Transform respawnPoint;
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         pController = GetComponent<CharacterController>();
         // rb = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -45,7 +47,10 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
             move *= speed;
             if (Input.GetButton("Jump"))
-                move.y = sJump; 
+            { 
+                move.y = sJump;
+                anim.SetTrigger("isJumping");
+            } 
         }
         else
         {
@@ -61,8 +66,20 @@ public class PlayerController : MonoBehaviour
             playerT.transform.position = respawnPoint.position;
 
         //Rotate Player
-        //transform.Rotate(0, horizontal * speed , 0);       
+        //transform.Rotate(0, horizontal * speed , 0); 
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey("d") || 
+            Input.GetKey(KeyCode.RightArrow) || Input.GetKey("a") || 
+            Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w") || 
+            Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
+        {
+            anim.SetBool("isRunning", true);
+        }    
+        else
+        {
+            anim.SetBool("isRunning", false);
+        }    
     }
+
     
     // void OnTriggerEnter(Collider other)
     // {
